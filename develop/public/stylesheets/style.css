@@ -172,3 +172,72 @@ main {
     line-height: 150%;
     border: 3px solid black;
 }
+
+.post .title span {
+    font-style: italic;
+    font-size: 90%;
+    color: #7d7d7d;
+}
+
+.edit-link {
+    display: block;
+    margin: -1.5% 0 2% 0;
+    color: #2c2307;
+}
+
+.comment-form {
+    margin-bottom: 5%;
+}
+
+.comment {
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+.form-heading h1, .form-heading h2 {
+    color: #b8cba2;
+}
+
+.login-form, .signup-form, .post-content, .post-title-section {
+    padding: 10px 10px 0px 0px;
+}
+
+.entry-field, .login-signup-btn, .btn, #post-title {
+    width: 100%;
+}
+
+.comment:nth-child(odd) {
+    background-color: #fff5eb;
+}
+
+.comment .meta {
+    font-size: 90%;
+    margin-bottom: .5%;
+    opacity: .6;
+}
+
+.new-post-form input {
+    width: 300px;
+}
+
+.edit-post-form {
+    margin-bottom: 5%;
+}
+
+#comment-subtitle {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.new-post-section {
+    display: flex;
+    justify-content: center;
+}
+
+#create-new-post {
+    width: 15%;
+}
+
+.sign-in-link, .login-link {
+    color: #2c2307;
+}
