@@ -1,0 +1,31 @@
+{
+  "name": "The-Tech-Spot",
+  "version": "1.0.0",
+  "description": "## Description This is a back-end node index.js file that is designed to generate Professional a Read-Me.md file. After a successful follow through of a small amount of steps, questions and processes are responded to.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arand013/The-Tech-Spot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arand013/The-Tech-Spot/issues"
+  },
+  "homepage": "https://github.com/arand013/The-Tech-Spot#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5"
+  }
+}
