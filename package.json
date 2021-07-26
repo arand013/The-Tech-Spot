@@ -1,10 +1,10 @@
 {
-  "name": "The-Tech-Spot",
+  "name": "the-tech-spot",
   "version": "1.0.0",
   "description": "## Description This is a back-end node index.js file that is designed to generate Professional a Read-Me.md file. After a successful follow through of a small amount of steps, questions and processes are responded to.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "test",
     "start": "node server.js"
   },
   "repository": {
@@ -27,5 +27,8 @@
     "express-session": "^1.17.2",
     "mysql2": "^2.2.5",
     "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
   }
 }
